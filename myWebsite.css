@@ -1,0 +1,98 @@
+
+
+body{
+    background-image: url('https://wallpaperaccess.com/full/1378083.jpg');
+    font-family: cursive;
+    
+}
+.active{
+    cursor: pointer;
+    background-color: white;
+    border-radius: 30px;
+    color:black;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: #00096e;
+    color: white;
+    
+}
+#menusList{
+      display: flex;
+    justify-content: center;
+    background-color: grey;
+    color:white;
+    position: sticky;
+    top:0;
+}
+.menu{
+    margin:30px;
+    transition: cubic-bezier(.18,.47,.83,.67);
+    transition-duration: 0.25s;
+}
+p{
+    display: none;
+     
+}
+#home{
+ display: none;
+    transition: display 2s cubic-bezier(.18,.47,.83,.67);
+     
+}
+#aboutMe{
+ display: none;
+    transition: display 2s cubic-bezier(.18,.47,.83,.67);
+     
+}
+#contactMe{
+ display: none;
+    transition: display 2s cubic-bezier(.18,.47,.83,.67);
+     
+     
+     justify-content: center;
+     
+}
+img{
+    
+    width:50px;
+    height: 50px;
+    margin:10px;
+}
+#logos{
+ display: none;
+ justify-content: center;
+
+}
+#first{
+    display: none;
+ height:100px;
+ width:100px;
+ 
+}
+#second{
+     display: none;
+ height:100px;
+ width:100px;
+
+#third{
+    display: none;
+ height:100px;
+ width:100px;
+ 
+}
+
+#left{
+  display: none;
+    height: 50px;
+    margin:10px;
+}
+#right{
+  display: none;
+    margin:10px;
+   height:50px;
+}
+.active{
+ display:block;
+}
